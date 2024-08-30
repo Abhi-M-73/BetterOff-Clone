@@ -85,15 +85,33 @@ nav ul li:hover {
   font-weight: 500;
 }
 
-.page1 marquee {
-  display: flex;
-  align-items: center;
-  font-size: 300px;
-  font-weight: 900;
-  font-family: sans-serif;
+.page1 > .slider {
+  width: 100%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  margin: 30px 0;
 }
 
-.page1 marquee img {
+.slider > .slider-content {
+  display: inline-block;
+  animation: slider 10s infinite linear;
+}
+
+@keyframes slider {
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(-100%);
+  }
+}
+
+.slider-content > span {
+  font-size: 20vw;
+  
+}
+
+.slider-content > img {
   height: 210px;
 }
 
@@ -119,31 +137,31 @@ nav ul li:hover {
   margin-bottom: 30px;
 }
 
-.page3{
+.page3 {
   width: 100%;
   display: flex;
   padding: 0 30px;
 }
 
-.page3-left{
+.page3-left {
   width: 50%;
 }
 
-.page3-left > h3{
+.page3-left > h3 {
   font-size: 25px;
   font-weight: 500;
 }
 
-.page3-mid{
+.page3-mid {
   width: 40%;
 }
 
-.page3-mid > h3{
+.page3-mid > h3 {
   font-size: 25px;
   font-weight: 500;
 }
 
-.page3-mid > p{
+.page3-mid > p {
   width: 90%;
   font-size: 25px;
   font-weight: 500;
@@ -152,17 +170,16 @@ nav ul li:hover {
   margin-bottom: 40px;
 }
 
-
-.page3-right{
+.page3-right {
   width: 10%;
 }
 
-.page3-right > h3{
+.page3-right > h3 {
   font-size: 25px;
   font-weight: 500;
 }
 
-.page3-left span{
+.page3-left span {
   display: inline-block;
   height: 10px;
   width: 10px;
