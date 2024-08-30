@@ -115,5 +115,57 @@ nav ul li:hover {
 .page2 hr {
   height: 1px;
   background-color: gray;
-  margin: 100px 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.page3{
+  width: 100%;
+  display: flex;
+  padding: 0 30px;
+}
+
+.page3-left{
+  width: 50%;
+}
+
+.page3-left > h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.page3-mid{
+  width: 40%;
+}
+
+.page3-mid > h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.page3-mid > p{
+  width: 90%;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(126, 126, 126);
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+
+.page3-right{
+  width: 10%;
+}
+
+.page3-right > h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.page3-left span{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
 }
