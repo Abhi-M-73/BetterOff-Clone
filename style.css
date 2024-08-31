@@ -141,6 +141,7 @@ nav ul li:hover {
   width: 100%;
   display: flex;
   padding: 0 30px;
+  margin-bottom: 150px;
 }
 
 .page3-left {
@@ -150,6 +151,16 @@ nav ul li:hover {
 .page3-left > h3 {
   font-size: 25px;
   font-weight: 500;
+  text-transform: uppercase;
+}
+
+.page3-left span {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 5px;
 }
 
 .page3-mid {
@@ -179,10 +190,71 @@ nav ul li:hover {
   font-weight: 500;
 }
 
-.page3-left span {
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  background-color: black;
-  border-radius: 50%;
+
+
+
+.page4{
+  width: 100%;
+  padding: 40px 30px;
+  background-color: #ffffff;
+}
+
+.page4-headings{
+  display: flex;
+}
+
+.page4-headings > h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.page4-headings > h3:nth-child(1){
+  width: 35%;
+}
+
+.page4-headings > h3:nth-child(2){
+  width: 50%;
+}
+
+.page4 > .work{
+  display: flex;
+  flex-direction: column;
+}
+
+.page4 > .work > h1{
+  font-size: 20vw;
+  letter-spacing: -30px;
+  line-height: 17vw;
+  font-weight: 800;
+  text-align: center;
+}
+
+.work > h1:first-child{
+  margin-top: 50px;
+}
+
+.work > .work-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6vw;
+}
+
+.work > .work-content > h1{
+  font-size: 20vw;
+  font-weight: 800;
+  
+}
+
+.work > .work-content > .video{
+  height: 200px;
+  width: 200px;
+  
+  
+}
+
+.video > video{
+  height: 100%;
+  width: 80%;
+  scale: 2;
 }
